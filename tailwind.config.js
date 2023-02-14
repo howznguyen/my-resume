@@ -1,12 +1,17 @@
 module.exports = {
   mode: 'jit',
-  purge: [
+  content: [
     './**/*.html',
     './src/**/*.{js,jsx,ts,tsx,vue}',
   ],
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'print': {'raw': 'print'},
+        // => @media print { ... }
+      }
+    },
   },
   plugins: [],
 }
