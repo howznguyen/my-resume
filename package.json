@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:watch" : "ynpx tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch"
+    "build:watch" : "ynpx tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch",
+    "start": "bun --watch run tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
