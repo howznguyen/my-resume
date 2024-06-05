@@ -757,10 +757,6 @@ body {
   margin-left: 0.5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .ml-\[0\.1rem\] {
   margin-left: 0.1rem;
 }
@@ -894,6 +890,14 @@ body {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[full\] {
+  height: full;
 }
 
 .w-4 {
@@ -1117,10 +1121,6 @@ body {
 
 .list-outside {
   list-style-position: outside;
-}
-
-.list-disc {
-  list-style-type: disc;
 }
 
 .appearance-none {
@@ -1890,9 +1890,9 @@ body {
   border-style: none;
 }
 
-.bg-\[\#0769AD\] {
+.bg-\[\#000000\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(7 105 173 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#0A2647\] {
@@ -1940,11 +1940,6 @@ body {
   background-color: rgb(51 103 145 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#339933\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 153 51 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#344D67\] {
   --tw-bg-opacity: 1;
   background-color: rgb(52 77 103 / var(--tw-bg-opacity));
@@ -1965,6 +1960,16 @@ body {
   background-color: rgb(68 121 161 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#4FC08D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 192 141 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#61DAFB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 218 251 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#777BB4\] {
   --tw-bg-opacity: 1;
   background-color: rgb(119 123 180 / var(--tw-bg-opacity));
@@ -1973,6 +1978,11 @@ body {
 .bg-\[\#7952B3\] {
   --tw-bg-opacity: 1;
   background-color: rgb(121 82 179 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E0234E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 35 78 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#E34F26\] {
@@ -2005,6 +2015,11 @@ body {
   background-color: rgb(255 45 32 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FF9900\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 153 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#FFCA28\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 202 40 / var(--tw-bg-opacity));
@@ -2018,36 +2033,6 @@ body {
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FF9900\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 153 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#000000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#E0234E\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 35 78 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#61DAFB\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(97 218 251 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#4FC08D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(79 192 141 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#43B02A\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(67 176 42 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
