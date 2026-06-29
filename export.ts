@@ -49,13 +49,12 @@ async function exportHtmlToPdf(
     const page = await browser.newPage();
     await page.setViewport({ width: 1240, height: 1754 });
     await page.goto(`file://${inputPath}`, { waitUntil: "networkidle0" });
-    await page.emulateMediaType("screen");
+    await page.emulateMediaType("print");
 
     await page.pdf({
       path: outputPath,
       printBackground: true,
       format: "A4",
-      pageRanges: "1-3",
       margin: {
         top: "0mm",
         bottom: "0mm",

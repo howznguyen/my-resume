@@ -1,16 +1,11 @@
 {
   "name": "cv",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "license": "MIT",
   "scripts": {
-    "build:watch": "ynpx tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch",
-    "start": "bun --watch run tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch",
     "pre-export": "bunx puppeteer browsers install chrome --install-deps",
     "export:pdf": "bun run export.ts"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
   },
   "dependencies": {
     "pdf-lib": "^1.17.1",
