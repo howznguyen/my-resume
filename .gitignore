@@ -156,3 +156,4 @@ dist
 !.yarn/cache
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+.knowns/
